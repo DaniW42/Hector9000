@@ -1,4 +1,4 @@
-HECTOR 9000
+Satoshi24
 ======================
 
 Minimal Requirements
