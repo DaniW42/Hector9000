@@ -7,7 +7,7 @@ from HectorHardware import HectorHardware
 h = HectorHardware(config)
 
 while True:
-    vnum = int(input("Bitte Ventilnr. eingeben (0..11); Ende mit -1:  "))
+    vnum = int(input("Bitte Ventilnr. eingeben (0..23); Ende mit -1:  "))
     if vnum == -1:
         sys.exit()
     cpos = h.valvePositions[vnum][1]
