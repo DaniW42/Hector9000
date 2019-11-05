@@ -58,5 +58,65 @@
 		"name": "Pump 12",
 		"channel": 11,
 		"value": "oj"
+	},
+	"pump_13": {
+		"name": "Pump 13",
+		"channel": 12,
+		"value": "test13"
+	},
+	"pump_14": {
+		"name": "Pump 14",
+		"channel": 13,
+		"value": "test14"
+	},
+	"pump_15": {
+		"name": "Pump 15",
+		"channel": 14,
+		"value": "test15"
+	},
+	"pump_16": {
+		"name": "Pump 16",
+		"channel": 15,
+		"value": "test16"
+	},
+	"pump_17": {
+		"name": "Pump 17",
+		"channel": 16,
+		"value": "test17"
+	},
+	"pump_18": {
+		"name": "Pump 18",
+		"channel": 17,
+		"value": "test18"
+	},
+	"pump_19": {
+		"name": "Pump 19",
+		"channel": 18,
+		"value": "test19"
+	},
+	"pump_20": {
+		"name": "Pump 20",
+		"channel": 19,
+		"value": "test20"
+	},
+	"pump_21": {
+		"name": "Pump 21",
+		"channel": 20,
+		"value": "test21"
+	},
+	"pump_22": {
+		"name": "Pump 22",
+		"channel": 21,
+		"value": "test22"
+	},
+	"pump_23": {
+		"name": "Pump 23",
+		"channel": 22,
+		"value": "test23"
+	},
+	"pump_24": {
+		"name": "Pump 24",
+		"channel": 23,
+		"value": "test24"
 	}
 }
