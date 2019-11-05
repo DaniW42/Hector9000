@@ -21,8 +21,20 @@ config = {
             (375, 240),  # ch 9
             (375, 235),  # ch 10
             (375, 250)  # ch 11
+            (375, 250)  # ch 12
+            (375, 250)  # ch 13
+            (375, 250)  # ch 14
+            (375, 250)  # ch 15
+            (375, 250)  # ch 16
+            (375, 250)  # ch 17
+            (375, 250)  # ch 18
+            (375, 250)  # ch 19
+            (375, 250)  # ch 20
+            (375, 250)  # ch 21
+            (375, 250)  # ch 22
+            (375, 250)  # ch 23
         ],
-        "fingerchannel": 12,
+        "fingerchannel": 24,
         "fingerpositions": (280, 430, 450),  # retracted, above bell, bell
         "lightpin": 22,
         "lightpwmchannel": 13,
