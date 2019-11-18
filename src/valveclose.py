@@ -18,7 +18,7 @@ if hardware:
     h.arm_in()
 
     h.pump_stop()
-    for vnum in range(12):
+    for vnum in range(24):
             print("Ventil %d wird geschlossen" % (vnum,))
             time.sleep(1)
             h.valve_close(vnum)
