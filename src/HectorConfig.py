@@ -7,7 +7,7 @@ config = {
     },
     "pca9685": {
         "freq": 60,
-        "valvechannels": range(12),  # 0..11
+        "valvechannels": range(24),  # 0..23
         "valvepositions": [  # (open, closed)
             (280, 520),  # ch 0
             (290, 520),  # ch 1
@@ -20,10 +20,22 @@ config = {
             (490, 250),  # ch 8
             (290, 520),  # ch 9
             (500, 250),  # ch 10
-            (330, 110)  # ch 11
+            (330, 110),  # ch 11
+            (360, 600),  # ch 12
+            (360, 600),  # ch 13
+            (330, 570),  # ch 14
+            (360, 600),  # ch 15
+            (360, 590),  # ch 16
+            (360, 570),  # ch 17
+            (360, 600),  # ch 18
+            (360, 600),  # ch 19
+            (360, 570),  # ch 20
+            (360, 590),  # ch 21
+            (360, 600),  # ch 22
+            (360, 600)  # ch 23
         ],
         "fingerchannel": 12,
-        "fingerpositions": (280, 430, 450),  # retracted, above bell, bell
+        "fingerpositions": (280, 440, 461),  # retracted, above bell, bell
         "lightpin": 22,
         "lightpwmchannel": 13,
         "lightpositions": (0, 500)

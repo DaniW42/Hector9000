@@ -1,4 +1,6 @@
-import time, board, neopixel
+import time 
+import board
+import neopixel
 
 PORT = board.D18
 NUM = 15

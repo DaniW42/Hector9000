@@ -1,7 +1,7 @@
-HECTOR 9000
+Satoshi24
 ======================
 
-![Hector9000 serving a Cocktail](https://repository-images.githubusercontent.com/195014271/54d0a380-ac88-11e9-9497-a44198e84aff)
+![Satoshi24 serving a Cocktail](http://bitcoin-turm.de/wp-content/uploads/2019/11/signal-attachment-2019-10-21-171136_002.jpeg)
 
 
 Install on RaspberryPi
@@ -28,7 +28,7 @@ NOT TESTED! COMES WITHOUT ANY WARRANTY!
 
 	## After you have installed Python and Kivy you can get the sources by using Git
 	cd ~
-	git clone https://github.com/DaniW42/Hector9000.git
+	git clone https://github.com/Satoshi24/Hector9000.git
 
 	## Install all the requirements listed in the file requirements.txt
 	cd Hector9000/
@@ -43,10 +43,8 @@ https://github.com/H3c702/Hector9000
 
 Start Hector :
 ----
-	cd Hector9000
-	cd srv
-	python3 main.py
-
+	hector-start
+	
 Add Drinks
 ---
 

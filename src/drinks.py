@@ -144,6 +144,90 @@ drink_list = [
             ("tonic", 100),
             ("pineapple", 40)
         ]
+    }, {
+        "name": "Tequila",
+        "image": "img/empty-glass.png",
+        "sound": "/home/pi/Music/SatoshiCountry.mp3",
+        "recipe": [
+            ("tequila", 40)
+        ]
+    }, {
+        "name": "empty1",
+        "image": "img/empty-glass.png",
+        "sound": "/home/pi/Music/SatoshiCountry.mp3",
+        "recipe": [
+            ("empty1", 40)
+        ]
+    }, {
+        "name": "empty2",
+        "image": "img/empty-glass.png",
+        "sound": "/home/pi/Music/SatoshiCountry.mp3",
+        "recipe": [
+            ("empty2", 40)
+        ]
+    }, {
+        "name": "empty3",
+        "image": "img/empty-glass.png",
+        "sound": "/home/pi/Music/SatoshiCountry.mp3",
+        "recipe": [
+            ("empty3", 40)
+        ]
+    }, {
+        "name": "empty4",
+        "image": "img/empty-glass.png",
+        "sound": "/home/pi/Music/SatoshiCountry.mp3",
+        "recipe": [
+            ("empty4", 40)
+        ]
+    }, {
+        "name": "empty5",
+        "image": "img/empty-glass.png",
+        "sound": "/home/pi/Music/SatoshiCountry.mp3",
+        "recipe": [
+            ("empty5", 40)
+        ]
+    }, {
+        "name": "empty6",
+        "image": "img/empty-glass.png",
+        "sound": "/home/pi/Music/SatoshiCountry.mp3",
+        "recipe": [
+            ("empty6", 40)
+        ]
+    }, {
+        "name": "empty7",
+        "image": "img/empty-glass.png",
+        "sound": "/home/pi/Music/SatoshiCountry.mp3",
+        "recipe": [
+            ("empty7", 40)
+        ]
+    }, {
+        "name": "empty8",
+        "image": "img/empty-glass.png",
+        "sound": "/home/pi/Music/SatoshiCountry.mp3",
+        "recipe": [
+            ("empty8", 40)
+        ]
+    }, {
+        "name": "empty9",
+        "image": "img/empty-glass.png",
+        "sound": "/home/pi/Music/SatoshiCountry.mp3",
+        "recipe": [
+            ("empty9", 40)
+        ]
+    }, {
+        "name": "empty10",
+        "image": "img/empty-glass.png",
+        "sound": "/home/pi/Music/SatoshiCountry.mp3",
+        "recipe": [
+            ("empty10", 40)
+        ]
+    }, {
+        "name": "empty11",
+        "image": "img/empty-glass.png",
+        "sound": "/home/pi/Music/SatoshiCountry.mp3",
+        "recipe": [
+            ("empty11", 40)
+        ]
     }
 
 ]
@@ -162,10 +246,21 @@ ingredients = {
     "lime": ("Lime", False),
     "soda": ("Soda", True),
     "cola": ("Cola", False),
- #   "tequila": ("tequila", True),
- #   "beer": ("Beer", True),
+    "tequila": ("Tequila", True),
+    "empty1": ("Empty1", False),
  #   "water": ("Water", True),
+    "empty2": ("Empty2", False),
  #   "bacardi": ("Bacardi", True),
+    "empty3": ("Empty3", False),
+ #   "beer": ("Beer", True),
+    "empty4": ("Empty4", False),
+    "empty5": ("Empty5", False),
+    "empty6": ("Empty6", False),
+    "empty7": ("Empty7", False),
+    "empty8": ("Empty8", False),
+    "empty9": ("Empty9", False),
+    "empty10": ("Empty10", False),
+    "empty11": ("Empty11", False),
 }
 
 

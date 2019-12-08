@@ -43,11 +43,15 @@ class HectorHardware:
             self.hx.tare()
 
             pcafreq = cfg["pca9685"]["freq"]
-            self.pca = Adafruit_PCA9685.PCA9685()
+            self.pca = Adafruit_PCA9685.PCA9685(address=0x40)
             self.pca.set_pwm_freq(pcafreq)
+            self.pcaplus = Adafruit_PCA9685.PCA9685(address=0x41,busnum=1)
+            self.pcaplus.set_pwm_freq(pcafreq)
+            
             self.valveChannels = cfg["pca9685"]["valvechannels"]
             self.numValves = len(self.valveChannels)
             self.valvePositions = cfg["pca9685"]["valvepositions"]
+            
             self.fingerChannel = cfg["pca9685"]["fingerchannel"]
             self.fingerPositions = cfg["pca9685"]["fingerpositions"]
             self.lightPin = cfg["pca9685"]["lightpin"]
@@ -171,7 +175,10 @@ class HectorHardware:
         print("ch %d, pos %d" % (ch, pos))
 
         if not devEnvironment:
-            self.pca.set_pwm(ch, 0, pos)
+            if index < 12:
+                self.pca.set_pwm(ch, 0, pos)
+            else:
+                self.pcaplus.set_pwm(ch-12, 0, pos)
 
     def valve_close(self, index):
         if not devEnvironment:
@@ -220,6 +227,10 @@ class HectorHardware:
         print("Cleaning...")
         if not devEnvironment:
             GPIO.cleanup()
+            for vnum in range(24):
+                print("Vent %d opening..." % (vnum,))
+                time.sleep(1)
+                self.valve_open(vnum)
         print("Bye!")
         sys.exit()
 

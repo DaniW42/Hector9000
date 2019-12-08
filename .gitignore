@@ -1,7 +1,4 @@
 
-<<<<<<< HEAD
-\.DS_Store
-=======
 # Created by https://www.gitignore.io/api/pycharm+all
 
 ### PyCharm+all ###
@@ -75,7 +72,6 @@ modules.xml
 
 
 # End of https://www.gitignore.io/api/pycharm+all
->>>>>>> 1b3f5187e0c2eecb17e2f43345612554420b8e25
 
 *.pyc
 
@@ -91,6 +87,7 @@ src/nohup\.out
 
 
 ## Hector9000 specific excludes
+## IMPORTANT!
 
 *.bak
 src/lnd/temp/
@@ -98,3 +95,7 @@ src/lnd/temp/
 *.log
 *.macaroon
 *.cert
+
+## Pictures
+*.png
+*.jpg
